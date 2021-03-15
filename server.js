@@ -8,6 +8,7 @@ app.use(cors());
 
 // Routes
 app.use("/auth", require("./routes/jwtAuth")); // Register 
+app.use("/dashboard", require("./routes/dashboard")); // Register 
 
 
 // Create && Listen to a PORT

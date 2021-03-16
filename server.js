@@ -10,7 +10,6 @@ app.use(cors());
 app.use("/auth", require("./routes/jwtAuth")); // Register 
 app.use("/dashboard", require("./routes/dashboard")); // Register 
 
-
 // Create && Listen to a PORT
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Listening to port: ${PORT}`));
